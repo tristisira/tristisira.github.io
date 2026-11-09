@@ -4,8 +4,54 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>tristisira.com</title>
+<style>
+html {
+  min-height: 100%;
+  background: repeating-linear-gradient(
+    45deg,
+    #f0dbff 0 1.5cm,
+    #c4a2e0 1.5cm 3cm
+  );
+}
+body {
+  margin: 0;
+}
+.shape {
+  width: 718px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.shape-top {
+  aspect-ratio: 718 / 115;
+  background: #d6e0ff;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  box-sizing: border-box;
+}
+.shape-top p {
+  margin: 0;
+  text-align: center;
+}
+.shape svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-top: -1px;
+  overflow: visible;
+}
+</style>
 </head>
 <body>
-<b>---</b>this is tristisira.com
+  <!--
+  -->
+  <div class="shape">
+    <div class="shape-top">
+      <p>this is tristisira.com</p>
+    </div>
+    <svg viewBox="0 0 718 290" aria-hidden="true">
+      <path fill="#fffefc" d="M0 0 C0 70 45 130 120 160 C202 193 320 215 359 290 C398 215 516 193 598 160 C673 130 718 70 718 0 Z"/>
+      <path fill="none" stroke="grey" stroke-width="1" vector-effect="non-scaling-stroke" d="M0 0 C0 70 45 130 120 160 C202 193 320 215 359 290 C398 215 516 193 598 160 C673 130 718 70 718 0"/>
+    </svg>
+  </div>
 </body>
 </html>
